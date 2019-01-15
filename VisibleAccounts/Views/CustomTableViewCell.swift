@@ -6,4 +6,11 @@
 //  Copyright © 2019 dani. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class CustomTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var accountName: UILabel!
+    @IBOutlet weak var iban: UILabel!
+    @IBOutlet weak var balance: UILabel!
+}
